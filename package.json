@@ -1,0 +1,22 @@
+{
+  "name": "image-resizer-electron",
+  "ProductName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "Image Resizer Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Kactus",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1"
+  }
+}
